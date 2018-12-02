@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="generic.TestcaseSuite">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="Test01_Verify_Creation_Of_NewComputer_In_Application"/>
+          <include name="UpdateConfig"/>
+          <include name="Test04_Verify_Deletion_Of_Existing_ComputerDetails"/>
+          <include name="Initialize"/>
+          <include name="ControlTest"/>
+          <include name="closeBrowser"/>
+          <include name="Test02_Verify_Modification_Of_Existing_ComputerDetails"/>
+          <include name="Test05_Verify_Search_Of_Computer_With_UniqueName"/>
+          <include name="Test03_Verify_Validation_Of_Existing_ComputerDetails"/>
+          <include name="Screenshot"/>
+        </methods>
+      </class> <!-- generic.TestcaseSuite -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
