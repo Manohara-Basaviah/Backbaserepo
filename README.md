@@ -40,7 +40,7 @@ Currently Logging is disabled due to dependency on local files
 # Screenshot:
 Each tests has the screenshot captured at the end of execution, either when all the steps are completed or encounted with exception.
 
-It is set to <My Documents> local folder and it can be changed.
+It is set to "My Documents" local folder and it can be changed.
 Screenshots have test name to understand the objective of test case.
 
 # Reporting:
