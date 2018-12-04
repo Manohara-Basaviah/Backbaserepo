@@ -21,10 +21,13 @@ By default, Chrome is set for test automation and can be changed in generic.Init
 
 # Execution:
 Clone the repository.
+
 Open command prompt and go to web-test directory.
 To run on local environment use command .....\computersDBframework> mvn clean test
 
+
 Import the project in Eclipse.
+
 Ensure that project <computersDBframework> has pom.xml and testng.xml
 right click on pom.xml and Run As - Maven install {test, if goal is required}
 or 
