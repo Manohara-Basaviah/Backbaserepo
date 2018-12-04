@@ -15,7 +15,8 @@ Verify Maven in installed correctly with mvn -version
 
 
 # Environment:
-Since there is onely 1 environment to test, but configuration can be set to - dev, qa, stage, and prod]
+Since there is onely 1 environment to test, but configuration can be set to - dev, qa, stage, and prod.
+
 By default, Chrome is set for test automation and can be changed in generic.Initialization class file <Browser>
 
 # Execution:
